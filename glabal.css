@@ -1,0 +1,167 @@
+.container{
+    text-align: center;
+    background-color: #e1e1e1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+  }
+  img{
+    right: 0;
+    position: absolute;
+    height: 150px;
+    width: 105px;
+    border: solid 1px black;
+  }
+  .cinzaEscuro{
+    top: 50%;
+    margin-top: -200px;
+    width: 253px;
+    height: 60px;
+    right:20rem;
+    position: absolute;
+  }
+  b{
+    position: relative;
+    top: 20px;
+  }
+  .preto{
+    border: solid 2px;
+    top: 49%;
+    margin-top: -135px;
+    position: absolute;
+    background-color: #444;
+    height: 350px;
+    width: 250px;
+    right: 25rem;
+    box-shadow: 0 5px  black;
+  }
+  
+  /*edição do cinzaclaro*/
+  .cinzaClaro{
+    position: absolute;
+    border: solid 1px;
+    box-shadow: 2px 5px 2px  black;
+    right: 41rem;
+    margin-left: -370px;
+    top: 50%;
+    margin-top: -190px;
+    position: absolute;
+    height: 360px;
+    width: 500px;
+   
+    
+    
+  }
+  .cinzaclaro:hover{
+    
+    transform: translateY(0px);
+    opacity: 1;
+    background-color: #E67401;
+    box-shadow: 0 5px  orangered;
+  }
+
+  /*fim da edição do cinzaclaro*/
+  .cinzaEscuro{
+    background-color: #b6b5b5;
+    right: 25rem;
+    box-shadow: 0 5px  black;
+  }
+  .bnt{
+    margin: 10px;
+    background-color: black;
+    color: snow;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+  }
+  .teclado2{
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    color: black;
+    padding: 10px;
+  }
+  .branco{
+    height: 40px;
+    width: 75px;
+    font-family: arial;
+    transition: 0.5s;
+  }
+  .laranja{
+    height: 40px;
+    width: 75px;
+    background-color: #E67401;
+    font-family: arial;
+    border: none;
+    padding: 10px;
+    transition: 0.5s;
+   
+  }
+
+  .lranja-orange{
+    color: #fff;
+    
+
+  }
+  .verde{
+    height: 40px;
+    width: 89px;
+    background-color: green;
+    font-family: arial;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.5s;
+   
+  }
+
+  .verde-green{
+    color: #fff;
+    
+  }
+
+  .verde-green:hover{
+    color: #fff;
+    box-shadow: 0 5px  #003f00;
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .verde-green:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+  }
+  
+  .branco:hover{
+    background-color: white;
+    box-shadow: 0 5px  #fff;
+  }
+  .laranja:hover{
+     transform: translateY(0px);
+    opacity: 1;
+    background-color: #E67401;
+    box-shadow: 0 5px  orangered;
+  }
+  .verde:hover{
+    
+    background-color: green;
+  }
+  
+  
+  #imange{
+    height: 100px;
+    width: 150px;
+    right: 11rem;
+  }
+  
+  .branco{
+    border: none;
+  }
+  .resultado{
+    border: none;
+  }

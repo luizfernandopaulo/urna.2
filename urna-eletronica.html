@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="glabal.css">
+   
+</head>
+<body>
+          <div class="container">
+            <div class="branco">
+                <div class="cinzaClaro ">
+                    <p>Número:</p>
+                    <form action="">
+                        <input size="1" id="campo1" value="" maxlength="1" type="text" readonly="readonly"/>
+                        <input size="1" id="campo2" value="" maxlength="1" type="text" readonly="readonly"/>
+                       
+                    </form>
+
+
+                    <input type="submit" class="resultado" onclick="resultado()">
+
+                    <div id="result"></div>
+                    <div id="resultbranco"></div>
+                    <div id="result01"></div>
+                    <div id="result02"></div>
+
+
+                    <div > <img id="imange" src="Lula-Bolsonaro-Ciro.jpg" alt=""> </div>
+
+
+                    
+                </div>
+
+                <div class="cinzaEscuro">
+                    <b>JUSTIÇA<br>ELEITORAL</b> 
+                </div>
+                <div class="preto">
+                    <button class="bnt click" onclick="inserir(1)">1</button>
+                    <button class="bnt click" onclick="inserir(2)">2</button>
+                    <button class="bnt click" onclick="inserir(3)">3</button>
+                    <button class="bnt click" onclick="inserir(4)">4</button>
+                    <button class="bnt click" onclick="inserir(5)">5</button>
+                    <button class="bnt click" onclick="inserir(6)">6</button>
+                    <button class="bnt click" onclick="inserir(7)">7</button>
+                    <button class="bnt click" onclick="inserir(8)">8</button>
+                    <button class="bnt click" onclick="inserir(9)">9</button>
+                    <button class="bnt click" onclick="inserir(0)">0</button>
+                    <div class="teclado2">
+                        <button class="branco  click branco-white " onclick="Branco()">BRANCO</button>
+                        <button class="laranja  click lranja-orange" onclick="corrige()">CORRIGE</button>
+                        <button class="verde verde-green" onclick="votar()">CONFIRMA</button>
+                    </div>
+                </div>
+           
+
+        <script src="eleição.js"></script>
+</body>
+</html>
